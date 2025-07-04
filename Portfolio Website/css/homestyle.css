@@ -1,0 +1,174 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #0D1117;
+  font-family: 'Segoe UI', sans-serif;
+  color: #C9D1D9;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  background-color: #0D1117;
+  border-bottom: 1px solid #161B22;
+}
+
+.brand {
+  font-size: 30px;
+  font-weight: bold;
+  color: #00FFC6;
+  text-shadow: 0 0 2px #00FFC6;
+  transition: all 0.3s ease-in-out;
+}
+
+.brand:hover {
+  color: #00E6B2;
+  text-shadow: 0 0 6px #00E6B2, 0 0 12px #00E6B2;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  color: #00FFC6;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-items li a:hover {
+  color: #00E6B2;
+  text-shadow: 0 0 4px #00E6B2, 0 0 8px #00E6B2;
+}
+
+.Intro{
+   display: flex;
+  justify-content: center; /* Horizontally centers the items */
+  gap: 200px;               /* Adds space between avatar and heading */
+  margin-top: 100px; 
+}
+
+.MyAvatar img{
+  height: 300px;
+  width: 300px;
+}
+
+.Heading{
+  font-size: 25px;
+ color: #00FFC6;
+}
+
+.type{
+   color: #C9D1D9;
+}
+
+.About{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Vision{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.TechStack{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+p{
+  font-size: large;
+}
+
+.Work{
+   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+}
+
+.WorkBtn{
+display: flex;
+gap: 10px;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  border: 2px solid #00FFC6;
+  background-color: transparent;
+  color: #00FFC6;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 5px rgba(0, 255, 198, 0.3);
+  letter-spacing: 0.5px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #00FFC6;
+  color: #0D1117;
+  box-shadow: 0 0 10px #00FFC6, 0 0 20px #00FFC6;
+  transform: scale(1.05);
+}
+
+.Resume{
+   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+}
+
+.MoreAboutMe{
+    margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+}
+
+.Connect{
+    margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  margin-top: 20px;
+}
+
+
